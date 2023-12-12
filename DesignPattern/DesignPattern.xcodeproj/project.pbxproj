@@ -51,6 +51,10 @@
 		B21C08B22B27112100E74846 /* DesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21C08B62B27112100E74846 /* DesignPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternUITests.swift; sourceTree = "<group>"; };
 		B21C08B82B27112100E74846 /* DesignPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2C57CA12B2829A600BAF1F5 /* ThePrototypePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThePrototypePattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B2C57CA22B282BD300BAF1F5 /* TheFactoryPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheFactoryPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B2C57CA32B282EC300BAF1F5 /* BuilderPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuilderPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B2C57CA42B28310900BAF1F5 /* SingletonDesignPattern .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SingletonDesignPattern .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		B21C08912B27112000E74846 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				B21C08C52B2713AC00E74846 /* CreationalDP */,
 				B21C08922B27112000E74846 /* AppDelegate.swift */,
 				B21C08942B27112000E74846 /* SceneDelegate.swift */,
 				B21C08962B27112000E74846 /* ViewController.swift */,
@@ -128,6 +133,17 @@
 				B21C08B82B27112100E74846 /* DesignPatternUITestsLaunchTests.swift */,
 			);
 			path = DesignPatternUITests;
+			sourceTree = "<group>";
+		};
+		B21C08C52B2713AC00E74846 /* CreationalDP */ = {
+			isa = PBXGroup;
+			children = (
+				B2C57CA12B2829A600BAF1F5 /* ThePrototypePattern.playground */,
+				B2C57CA22B282BD300BAF1F5 /* TheFactoryPattern.playground */,
+				B2C57CA32B282EC300BAF1F5 /* BuilderPattern.playground */,
+				B2C57CA42B28310900BAF1F5 /* SingletonDesignPattern .playground */,
+			);
+			path = CreationalDP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
