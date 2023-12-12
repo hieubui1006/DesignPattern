@@ -3,7 +3,8 @@ import UIKit
 
 /*
  - The Factory Method Pattern <...>
- -> Tóm tắt Factory giống như một giao thức mà chúng ta sẽ sử dụng trên một lớp cụ thể để tạo các đối tượng
+ • Kiểu đối tượng được tạo được xác định trong thời gian chạy.
+ • Mẫu thiết kế này làm cho cơ sở mã linh hoạt hơn trong việc thêm hoặc loại bỏ các kiểu mới.
  */
 
 
