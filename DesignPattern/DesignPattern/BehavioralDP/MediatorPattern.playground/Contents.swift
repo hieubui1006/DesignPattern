@@ -55,6 +55,24 @@ struct TeamB: Receiver {
     func receive(message: String) {
         print("\(name) received == \(message)")
     }
+    
+    
+    func test() {
+        var sss: String = "fdsfdsafdsfdsfdsaf"
+        var mulStr = NSMutableString(string: sss)
+        var data = Data()
+        
+        for i in 0..<mulStr.length {
+            let value = mulStr.substring(with: NSRange(location: i, length: 1))
+            print("==\(mulStr.substring(with: NSRange(location: i, length: 1)))")
+
+            let point = UnsafeMutablePointer<String>.allocate(capacity: 1)
+            point.initialize(to: value)
+            let bufferPointer = UnsafeBufferPointer(start: point, count: 1)
+            data.append(bufferPointer)
+        }
+        print("====\(data.count)")
+    }
 }
 
 /*
@@ -70,7 +88,7 @@ struct TeamB: Receiver {
 let mediator = Mediator()
 let teamA = TeamA(name: "The Avengers")
 let teamB = TeamB(name: "The League of Extraodinary Gentlement")
-
+teamB.test()
 mediator.register(candidate: teamA)
 mediator.register(candidate: teamB)
 
