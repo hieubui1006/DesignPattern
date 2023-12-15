@@ -57,6 +57,8 @@
 		B21C08B82B27112100E74846 /* DesignPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B24229552B297C100004CA48 /* ChainOfResponsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ChainOfResponsibility.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B24229562B2983090004CA48 /* CommandPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CommandPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B279789E2B2C1F4A00023323 /* MementoPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MementoPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B279789F2B2C265E00023323 /* ObserverPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObserverPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2C57CA12B2829A600BAF1F5 /* ThePrototypePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThePrototypePattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2C57CA22B282BD300BAF1F5 /* TheFactoryPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheFactoryPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2C57CA32B282EC300BAF1F5 /* BuilderPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuilderPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -166,6 +168,8 @@
 				B24229562B2983090004CA48 /* CommandPattern.playground */,
 				B2050C072B2ACB1800222D59 /* IteratorPattern.playground */,
 				B2050C082B2AD4BE00222D59 /* MediatorPattern.playground */,
+				B279789E2B2C1F4A00023323 /* MementoPattern.playground */,
+				B279789F2B2C265E00023323 /* ObserverPattern.playground */,
 			);
 			path = BehavioralDP;
 			sourceTree = "<group>";
