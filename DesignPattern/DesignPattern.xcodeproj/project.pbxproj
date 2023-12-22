@@ -59,6 +59,10 @@
 		B24229562B2983090004CA48 /* CommandPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CommandPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B279789E2B2C1F4A00023323 /* MementoPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MementoPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B279789F2B2C265E00023323 /* ObserverPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObserverPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B27978A02B2C58EA00023323 /* StatePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StatePattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B27978A12B2C621B00023323 /* StrategyPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StrategyPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B2B431652B2D778E00C1F3C1 /* TemplatePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TemplatePattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B2B431662B2D781C00C1F3C1 /* VisitorPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VisitorPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2C57CA12B2829A600BAF1F5 /* ThePrototypePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThePrototypePattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2C57CA22B282BD300BAF1F5 /* TheFactoryPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheFactoryPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2C57CA32B282EC300BAF1F5 /* BuilderPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuilderPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -116,6 +120,7 @@
 		B21C08912B27112000E74846 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				B2C026352B32BA6A002E83B6 /* StructureDP */,
 				B2C57CA52B28329100BAF1F5 /* BehavioralDP */,
 				B21C08C52B2713AC00E74846 /* CreationalDP */,
 				B21C08922B27112000E74846 /* AppDelegate.swift */,
@@ -160,6 +165,13 @@
 			path = CreationalDP;
 			sourceTree = "<group>";
 		};
+		B2C026352B32BA6A002E83B6 /* StructureDP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StructureDP;
+			sourceTree = "<group>";
+		};
 		B2C57CA52B28329100BAF1F5 /* BehavioralDP */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +182,10 @@
 				B2050C082B2AD4BE00222D59 /* MediatorPattern.playground */,
 				B279789E2B2C1F4A00023323 /* MementoPattern.playground */,
 				B279789F2B2C265E00023323 /* ObserverPattern.playground */,
+				B27978A02B2C58EA00023323 /* StatePattern.playground */,
+				B27978A12B2C621B00023323 /* StrategyPattern.playground */,
+				B2B431652B2D778E00C1F3C1 /* TemplatePattern.playground */,
+				B2B431662B2D781C00C1F3C1 /* VisitorPattern.playground */,
 			);
 			path = BehavioralDP;
 			sourceTree = "<group>";
